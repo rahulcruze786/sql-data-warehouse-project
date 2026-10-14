@@ -2,7 +2,6 @@
 Building a modern data warehouse with sql server, including ETL process, data modelling and analytics.
 
 
-```markdown
 # Develop a Modern Data Warehouse using SQL Server
 
 Consolidate sales data to enable analytical reporting and informed decision-making.
@@ -32,4 +31,3 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## License
 This project is licensed under the **MIT License**.  
- ```
