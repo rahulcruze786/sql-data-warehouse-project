@@ -13,6 +13,31 @@ Building a modern data warehouse with sql server, including ETL process, data mo
 Stores raw data **as-is** from the source systems.  
 Data is ingested from **CSV files** into the **SQL Server database**.
 
+# 🟤 Bronze Layer Workflow
+
+### 1. Analysing
+- **Task:** Interview source system experts  
+- **Goal:** Understand the structure, meaning, and limitations of raw data before ingestion.
+
+---
+
+### 2. Coding
+- **Task:** Data ingestion  
+- **Goal:** Write scripts or pipelines to pull raw data (CSV, APIs, DB extracts) into the warehouse.
+
+---
+
+### 3. Validating
+- **Task:** Data completeness & schema checks  
+- **Goal:** Ensure all expected records are loaded and match the defined schema (columns, datatypes, constraints).
+
+---
+
+### 4. Docs & Version
+- **Task:** Data documenting & versioning in Git  
+- **Goal:** Maintain clear documentation of ingestion logic and track changes using Git for reproducibility.
+
+
 ## 2️⃣ Silver Layer
 Includes **data cleansing**, **standardization**, and **normalization** processes  
 to prepare data for analysis.
